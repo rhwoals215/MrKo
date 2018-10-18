@@ -49,6 +49,8 @@ a:hover{
   padding: 20px;
   margin-left: 180px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 #profile_container{
@@ -88,11 +90,33 @@ a:hover{
 
 /* Links inside the dropdwn */
 #subjects_content a {
-    color: black;
-    padding: 8px 32px 8px 32px;
-    text-decoration: none;
+  color: black;
+  padding: 8px 32px 8px 32px;
+  text-decoration: none;
 }
 
 #subjects_content a:hover {background-color: #ddd;}
 
-#subjects:hover #subjects_content {z-index:10; border-top: 100px;}
+#links{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 30px;
+  top: 100px;
+  color: black;
+  background-color: #f1f1f1;
+  border: solid 2px #585858;
+  padding: 10px;
+  min-height: 400px;
+}
+
+#links a{
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+
+#content{
+  padding-right: 180px;
+  padding-left:10px;
+}
