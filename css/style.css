@@ -50,7 +50,7 @@ a:hover{
   margin-left: 180px;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 #profile_container{
@@ -118,7 +118,8 @@ a:hover{
 
 #content{
   padding-right: 180px;
-  padding-left:10px;
+  padding-left: 20px;
+  text-align: left;
 }
 
 .sections{
