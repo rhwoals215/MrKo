@@ -88,7 +88,6 @@ a:hover{
   border-bottom: solid 2px #585858;
 }
 
-/* Links inside the dropdwn */
 #subjects_content a {
   color: black;
   padding: 8px 32px 8px 32px;
@@ -135,4 +134,8 @@ a:hover{
   font-size: 18px;
   padding: 5px;
 
+}
+
+.sections a:hover{
+  text-decoration: underline;
 }
