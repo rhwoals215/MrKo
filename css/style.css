@@ -45,6 +45,19 @@ a:hover{
   cursor: default;
 }
 
+#social{
+  display: flex;
+}
+
+#facebook{
+  width: 170%;
+}
+
+#instagram{
+  width: 130%;
+  margin-top: 8px;
+}
+
 #main {
   padding: 20px;
   margin-left: 180px;
